@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
 html {
-  font-size: 62.5%;
+  font-size: 70%;
   box-sizing: border-box;
 }
 body,
@@ -7,8 +9,9 @@ body,
   height: 100vh;
   margin: 0;
 }
-body{
+body,textarea,button{
   font-size: 1.6rem;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
 }
 
 .grid-container{
@@ -34,6 +37,10 @@ header {
   padding: 0.5rem;
     
 }
+
+a{
+  text-decoration: none;
+}
 header a{
   color: #fff;
   text-decoration: none;
@@ -49,4 +56,110 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+}
+.main{
+  flex:3 60rem;
+}
+.sidebar{
+  flex:1 20rem;
+}
+
+/*products*/
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+   
+}
+.products li{
+  flex: 0 1 29rem;
+  height: 47rem;
+  padding: 1rem;
+  
+}
+
+.product{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 100%;
+}
+.product img{
+  max-width: 37rem;
+  max-height: 37rem;
+}
+
+.product-price{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.product-price div,
+.product-price button{
+  text-align: center;
+  flex: 1;
+}
+
+.product-price-display{
+  font-size: 2rem;
+  text-decoration: line-through;
+  color:grey;
+}
+.product-price-actual{
+  font-size: 2rem;
+  
+}
+
+.button{
+  padding: 1rem;
+  border: 0.1rem #c0c0c0 solid;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+.button:hover{
+  border: 0.1rem #808080 solid;
+}
+
+.button.primary{
+  background-color: #f0c040;
+}
+
+.cart{
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+}
+
+/*index.css*/
+.cart-header{
+  border-bottom: 0.1rem #c0c0c0 solid;
+}
+
+.cart-items{
+  padding:0;
+  width:100%;
+  list-style-type: none;
+}
+
+.cart-items img{
+  width: 5rem;
+}
+.cart-items li{
+  display: flex;
+}
+
+.cart-items li div{
+ padding: .5rem;
+}
+.cart-itemsli div:last-child{
+   flex:1
 }
