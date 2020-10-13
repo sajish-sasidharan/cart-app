@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import formatCurrency from "../util";
+
 export default class Products extends Component {
+  
   render() {
     const { products } = this.props;
     return (
@@ -13,16 +15,14 @@ export default class Products extends Component {
                 <p>{product.name}</p>
               </a>
               <div className="product-price">
-              <div className="product-price-actual">
+                <div className="product-price-actual">
                   {formatCurrency(product.price.actual)}
                 </div>
                 <div className="product-price-display">
                   {formatCurrency(product.price.display)}
                 </div>
-                
-                <div className="product-discount">
-                  {product.discount}  % Off 
-                </div>
+
+                <div className="product-discount">{product.discount} % Off</div>
               </div>
               <button
                 onClick={() => {
