@@ -67,7 +67,7 @@ footer {
   flex: 3 60rem;
 }
 .sidebar {
-  flex: 1 20rem;
+  flex: 1 25rem;
 }
 
 /*products*/
@@ -119,15 +119,15 @@ footer {
 }
 
 .product-price-display {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   text-decoration: line-through;
   color: grey;
 }
 .product-price-actual {
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 .product-discount {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   color: green;
 }
 .button {
