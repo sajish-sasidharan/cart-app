@@ -13,13 +13,29 @@ class App extends React.Component {
       cartItems:[]
     }
   }
+  cartUpdate = (product, updateValue)=>{
+    let cartItems= this.state.cartItems.slice();
+      if(product.count===1 && updateValue===-1){
+        
+        this.setState({cartItems:cartItems.filter(item=>item.name!== product.name)})
+      }
+      else {
+        cartItems.map(item=>{
+          if(item.name===product.name){
+            item.count = item.count + updateValue;
+          }
+          return 1;
+        })
+        this.setState({cartItems});
+        
+      }
+  }
+
   addToCart=(product)=>{
     const cartItems= this.state.cartItems.slice();
     let alreadyInCart = false;
     cartItems.forEach((item)=>{
-      console.log(item.name,product.name)
       if(item.name===product.name){
-        console.log(item.count)
        item.count ++;
        alreadyInCart = true;
       }
@@ -41,7 +57,7 @@ class App extends React.Component {
     <Products products = {this.state.products} addToCart={this.addToCart}/>
           </div>
           <div className = "sidebar">
-<Cart cartItems = {this.state.cartItems}/>
+<Cart cartItems = {this.state.cartItems} cartUpdate ={this.cartUpdate}/>
           </div>
         </div>
       </main>
