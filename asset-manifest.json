@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.4eed1b0c.chunk.css",
-    "main.js": "/static/js/main.4c378e80.chunk.js",
-    "main.js.map": "/static/js/main.4c378e80.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.71da50e1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.71da50e1.js.map",
-    "static/js/2.49e9e8f7.chunk.js": "/static/js/2.49e9e8f7.chunk.js",
-    "static/js/2.49e9e8f7.chunk.js.map": "/static/js/2.49e9e8f7.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.6a040aacb0b60cce646c9ec7df78ca7b.js": "/precache-manifest.6a040aacb0b60cce646c9ec7df78ca7b.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.4eed1b0c.chunk.css.map": "/static/css/main.4eed1b0c.chunk.css.map",
-    "static/js/2.49e9e8f7.chunk.js.LICENSE.txt": "/static/js/2.49e9e8f7.chunk.js.LICENSE.txt"
+    "main.css": "/cart-app/static/css/main.4eed1b0c.chunk.css",
+    "main.js": "/cart-app/static/js/main.2837049a.chunk.js",
+    "main.js.map": "/cart-app/static/js/main.2837049a.chunk.js.map",
+    "runtime-main.js": "/cart-app/static/js/runtime-main.ff61ac90.js",
+    "runtime-main.js.map": "/cart-app/static/js/runtime-main.ff61ac90.js.map",
+    "static/js/2.49e9e8f7.chunk.js": "/cart-app/static/js/2.49e9e8f7.chunk.js",
+    "static/js/2.49e9e8f7.chunk.js.map": "/cart-app/static/js/2.49e9e8f7.chunk.js.map",
+    "index.html": "/cart-app/index.html",
+    "precache-manifest.cbc7b53255d1ec9eee6b2fb85306b3ce.js": "/cart-app/precache-manifest.cbc7b53255d1ec9eee6b2fb85306b3ce.js",
+    "service-worker.js": "/cart-app/service-worker.js",
+    "static/css/main.4eed1b0c.chunk.css.map": "/cart-app/static/css/main.4eed1b0c.chunk.css.map",
+    "static/js/2.49e9e8f7.chunk.js.LICENSE.txt": "/cart-app/static/js/2.49e9e8f7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.71da50e1.js",
+    "static/js/runtime-main.ff61ac90.js",
     "static/js/2.49e9e8f7.chunk.js",
     "static/css/main.4eed1b0c.chunk.css",
-    "static/js/main.4c378e80.chunk.js"
+    "static/js/main.2837049a.chunk.js"
   ]
 }
